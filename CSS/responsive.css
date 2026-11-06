@@ -1,0 +1,35 @@
+/* ==========================================
+   English Master 9 - Responsive Stylesheet
+   ================================---------- */
+
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(100%);
+        box-shadow: none;
+    }
+
+    .sidebar.open {
+        transform: translateX(0);
+        box-shadow: -5px 0 15px rgba(0,0,0,0.2);
+    }
+
+    .main-content {
+        margin-right: 0;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .view-container {
+        padding: 1rem;
+    }
+
+    .welcome-banner {
+        padding: 1.5rem;
+    }
+
+    .welcome-banner h2 {
+        font-size: 1.25rem;
+    }
+}
